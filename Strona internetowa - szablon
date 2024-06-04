@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2208e2acd0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav
+{
+    color: azure;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.leading-bigtext
+{
+    font-size: 70px;
+    margin-right: 20px;
+}
+
+.leading-text
+{
+    font-size: 20px;
+}
+
+body
+{
+    background-color: #959595;
+}
+
+img
+{
+    width: 100%;
+    height: 400px;
+}
+
+nav
+{
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+}
+
+.leading
+{
+    display: flex;
+    align-items: center;
+    color: azure;
+    background: url(grafika1.jpg) no-repeat center / cover;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 50px;
+    color: azure;
+    font-weight: bold;
+    padding: 20px;
+}
+
+header>h1
+{
+    font-size: 120px;
+}
+
+header>p
+{
+    font-size: 32px;
+}
+
+.cards
+{
+    display:  grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 3fr));
+    gap: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.artykul
+{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 0;
+    color: azure;
+    bottom: 4px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+article
+{
+    position: relative;
+}
+    </style>
+    <nav>
+        <p><i class="fa-solid fa-globe"></i> Strona Internetowa</p>
+    </nav>
+    <section class="leading">
+        <h1 class="leading-bigtext">WITAJ</h1>
+        <p  class="leading-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum sunt adipisci enim ab minus provident numquam laudantium aut, dolorum exercitationem assumenda nesciunt vero impedit quaerat eius. Sequi, debitis delectus. Tempora.</p>
+    </section>
+    <main>
+        <section class="cards">
+            <article>     
+                <img class="artice-img" src="grafika2.jpg">
+            <h1 class="artykul">Artykuł</h1>
+            </article>
+
+            <article>     
+                <img class="artice-img" src="grafika3.jpg">
+            <h1 class="artykul">Artykuł</h1></img>
+            </article>
+
+            <article>     
+                <img class="artice-img" src="grafika4.jpg">
+            <h1 class="artykul">Artykuł</h1></img>
+            </article>
+
+            <article>     
+                <img class="artice-img" src="grafika5.jpg">
+            <h1 class="artykul">Artykuł</h1></img>
+            </article>
+
+            <article>     
+                <img class="artice-img" src="grafika6.jpg">
+            <h1 class="artykul">Artykuł</h1></img>
+            </article>
+
+            <article>     
+                <img class="artice-img" src="grafika7.jpg">
+            <h1 class="artykul">Artykuł</h1></img>
+            </article>
+        </section>
+    </main> 
+</body>
+</html>
